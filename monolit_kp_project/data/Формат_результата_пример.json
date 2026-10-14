@@ -1,0 +1,60 @@
+{
+  "letter_id": "00",
+  "client": {
+    "name": "Иван Иванов",
+    "company": null,
+    "email": "ivanov@example.ru",
+    "phone": "+7 (900) 000-00-00"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Нытва",
+  "branch": "Краснокамск",
+  "items": [
+    {
+      "sku": "17001",
+      "name": "Гипсокартон Knauf ГСП-А 12,5 мм 1200×2500 мм",
+      "unit": "лист",
+      "qty": 10,
+      "price": 525.0,
+      "amount": 5250.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "23004",
+      "name": "Тачка строительная одноколёсная 100 л",
+      "unit": "шт",
+      "qty": 1,
+      "price": 4990.0,
+      "amount": 4990.0,
+      "promo": false,
+      "on_order_days": 3
+    }
+  ],
+  "clarify": [
+    {
+      "request": "кирпич 500 шт",
+      "reason": "не указан вид кирпича: в прайсе несколько вариантов"
+    }
+  ],
+  "goods_total": 10240.0,
+  "discount_percent": 0,
+  "discount_base": 10240.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 10240.0,
+  "weight_kg": 265.0,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 3,
+    "distance_km": 38,
+    "vehicle": "Газель",
+    "trips": 1,
+    "cost": 3300.0,
+    "free": false
+  },
+  "total": 13540.0,
+  "vat": 2441.64,
+  "notes": [
+    "Тачка строительная одноколёсная 100 л — под заказ, срок поставки 3 дн."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "letter_id": "10",
+  "client": {
+    "name": "Евгений Лаптев",
+    "company": null,
+    "email": "laptev.e@example.ru",
+    "phone": "8 (900) 000-10-10"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Кольцово",
+  "branch": "Лобаново",
+  "items": [
+    {
+      "sku": "16005",
+      "name": "Доска обрезная хвойная 50×150×6000 мм, 1 сорт",
+      "unit": "шт",
+      "qty": 45,
+      "price": 880.0,
+      "amount": 39600.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16003",
+      "name": "Доска обрезная хвойная 40×150×6000 мм, 1 сорт",
+      "unit": "шт",
+      "qty": 25,
+      "price": 695.0,
+      "amount": 17375.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "19003",
+      "name": "Керамзит фр. 10–20, мешок 50 л",
+      "unit": "меш",
+      "qty": 60,
+      "price": 245.0,
+      "amount": 14700.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16012",
+      "name": "Брус клееный 150×150×6000 мм",
+      "unit": "шт",
+      "qty": 4,
+      "price": 9450.0,
+      "amount": 37800.0,
+      "promo": false,
+      "on_order_days": 10
+    }
+  ],
+  "clarify": [
+    {
+      "request": "огнебиозащита Сенеж — 3 канистры",
+      "reason": "в прайсе есть несколько средств Сенеж; нужно уточнить точное наименование/тип состава"
+    }
+  ],
+  "goods_total": 109475.0,
+  "discount_percent": 3,
+  "discount_base": 109475.0,
+  "discount_amount": 3284.25,
+  "goods_after_discount": 106190.75,
+  "weight_kg": 2802.5,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 2,
+    "distance_km": 12,
+    "vehicle": "Манипулятор",
+    "trips": 1,
+    "cost": 5400.0,
+    "free": false
+  },
+  "total": 111590.75,
+  "vat": 20122.92,
+  "notes": [
+    "Брус клееный 150×150×6000 мм — под заказ, срок поставки 10 дн."
+  ]
+}

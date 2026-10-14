@@ -1,0 +1,51 @@
+{
+  "client": {
+    "name": "Сергей",
+    "company": null,
+    "email": "stroim.dom.sergey@example.ru",
+    "phone": "8-900-000-22-02"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Краснокамск",
+  "items": [
+    {
+      "request": "цемента пятисотого мешков 40",
+      "sku": "11002",
+      "quantity": 40,
+      "unit": "меш"
+    },
+    {
+      "request": "арматуры 12й метров 300",
+      "sku": "13003",
+      "quantity": 300,
+      "unit": "м"
+    },
+    {
+      "request": "вязальной проволоки пару бухт",
+      "sku": "13014",
+      "quantity": 2,
+      "unit": "бухта"
+    },
+    {
+      "request": "сетку кладочную 50 на 50, карт 30",
+      "sku": "13011",
+      "quantity": 30,
+      "unit": "шт"
+    },
+    {
+      "request": "песок в мешках 20 шт",
+      "sku": "19001",
+      "quantity": 20,
+      "unit": "меш"
+    },
+    {
+      "request": "щебень 5-20 в мешках тоже 20",
+      "sku": "19002",
+      "quantity": 20,
+      "unit": "меш"
+    }
+  ],
+  "clarify": [],
+  "notes": [],
+  "letter_id": "02"
+}

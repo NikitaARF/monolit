@@ -1,0 +1,88 @@
+{
+  "letter_id": "04",
+  "client": {
+    "name": "Ольга Ракитина",
+    "company": null,
+    "email": "rakitina.ov@example.ru",
+    "phone": "+7 (900) 000-44-04"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Кондратово",
+  "branch": "Пермь",
+  "items": [
+    {
+      "sku": "14016",
+      "name": "Пароизоляция Изоспан B, рулон 70 м²",
+      "unit": "рул",
+      "qty": 2,
+      "price": 1450.0,
+      "amount": 2900.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16010",
+      "name": "Брусок строганый 50×50×3000 мм",
+      "unit": "шт",
+      "qty": 30,
+      "price": 165.0,
+      "amount": 4950.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "15003",
+      "name": "Утеплитель Rockwool Лайт Баттс Скандик 50 мм, уп. 8,64 м² (0,432 м³)",
+      "unit": "уп",
+      "qty": 6,
+      "price": 1490.0,
+      "amount": 8940.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "21006",
+      "name": "Антисептик Сенеж Ультра, канистра 5 кг",
+      "unit": "шт",
+      "qty": 2,
+      "price": 890.0,
+      "amount": 1780.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [
+    {
+      "request": "Ондулин коричневый — 30 листов",
+      "reason": "в прайсе нет ондулина коричневого"
+    },
+    {
+      "request": "Коньки для ондулина — 6 шт",
+      "reason": "в прайсе нет соответствующего конька для ондулина"
+    },
+    {
+      "request": "Металлочерепица на навес — 12 листов (лист 1,18×3,6)",
+      "reason": "не указан цвет; в прайсе есть металлочерепица нескольких цветов"
+    }
+  ],
+  "goods_total": 18570.0,
+  "discount_percent": 0,
+  "discount_base": 18570.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 18570.0,
+  "weight_kg": 212.0,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 2,
+    "distance_km": 18,
+    "vehicle": "Газель",
+    "trips": 1,
+    "cost": 2100.0,
+    "free": false
+  },
+  "total": 20670.0,
+  "vat": 3727.38,
+  "notes": [
+    "Цвет металлочерепицы клиент уточнит отдельно."
+  ]
+}

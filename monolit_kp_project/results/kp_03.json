@@ -1,0 +1,93 @@
+{
+  "letter_id": "03",
+  "client": {
+    "name": "Николай Петрович Сафонов",
+    "company": null,
+    "email": "safonov.np@example.ru",
+    "phone": "+7 (900) 000-33-03"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Павловский",
+  "branch": "Очёр",
+  "items": [
+    {
+      "sku": "14005",
+      "name": "Профнастил С20 0,45 мм RAL 6005, лист 1,15×2 м",
+      "unit": "лист",
+      "qty": 44,
+      "price": 1190.0,
+      "amount": 52360.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "14015",
+      "name": "Гидроизоляционная мембрана Изоспан AM, рулон 70 м²",
+      "unit": "рул",
+      "qty": 2,
+      "price": 2950.0,
+      "amount": 5900.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "14009",
+      "name": "Планка конька плоского 2 м RAL 6005",
+      "unit": "шт",
+      "qty": 6,
+      "price": 690.0,
+      "amount": 4140.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "14011",
+      "name": "Планка торцевая 2 м RAL 6005",
+      "unit": "шт",
+      "qty": 8,
+      "price": 490.0,
+      "amount": 3920.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "14012",
+      "name": "Саморез кровельный 4,8×35 RAL 6005, уп. 250 шт",
+      "unit": "уп",
+      "qty": 3,
+      "price": 890.0,
+      "amount": 2670.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16001",
+      "name": "Доска обрезная хвойная 25×100×6000 мм, 1 сорт",
+      "unit": "шт",
+      "qty": 60,
+      "price": 285.0,
+      "amount": 17100.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 86090.0,
+  "discount_percent": 0,
+  "discount_base": 86090.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 86090.0,
+  "weight_kg": 892.7,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 2,
+    "distance_km": 14,
+    "vehicle": "Манипулятор",
+    "trips": 1,
+    "cost": 5400.0,
+    "free": false
+  },
+  "total": 91490.0,
+  "vat": 16498.2,
+  "notes": []
+}

@@ -1,0 +1,113 @@
+{
+  "letter_id": "01",
+  "client": {
+    "name": "Анна Белова",
+    "company": null,
+    "email": "a.belova@example.ru",
+    "phone": "+7 (900) 000-11-01"
+  },
+  "delivery_method": "самовывоз",
+  "settlement": null,
+  "branch": "Пермь",
+  "items": [
+    {
+      "sku": "11005",
+      "name": "Штукатурка гипсовая Knauf Ротбанд, 30 кг",
+      "unit": "меш",
+      "qty": 25,
+      "price": 640.0,
+      "amount": 16000.0,
+      "promo": true,
+      "on_order_days": null
+    },
+    {
+      "sku": "11008",
+      "name": "Шпаклёвка гипсовая финишная Knauf Ротбанд Финиш, 25 кг",
+      "unit": "меш",
+      "qty": 6,
+      "price": 790.0,
+      "amount": 4740.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "21001",
+      "name": "Грунтовка глубокого проникновения Ceresit CT 17, 10 л",
+      "unit": "шт",
+      "qty": 3,
+      "price": 1190.0,
+      "amount": 3570.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "17001",
+      "name": "Гипсокартон Knauf ГСП-А 12,5 мм 1200×2500 мм",
+      "unit": "лист",
+      "qty": 20,
+      "price": 525.0,
+      "amount": 10500.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "17004",
+      "name": "Профиль ПП 60×27 0,5 мм, 3 м",
+      "unit": "шт",
+      "qty": 40,
+      "price": 215.0,
+      "amount": 8600.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "17005",
+      "name": "Профиль ПН 28×27 0,5 мм, 3 м",
+      "unit": "шт",
+      "qty": 20,
+      "price": 155.0,
+      "amount": 3100.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "17008",
+      "name": "Подвес прямой 60×27, уп. 50 шт",
+      "unit": "уп",
+      "qty": 2,
+      "price": 390.0,
+      "amount": 780.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "17010",
+      "name": "Саморез для ГКЛ по металлу 3,5×25, уп. 1000 шт",
+      "unit": "уп",
+      "qty": 1,
+      "price": 520.0,
+      "amount": 520.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 47810.0,
+  "discount_percent": 0,
+  "discount_base": 31810.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 47810.0,
+  "weight_kg": 1517.4,
+  "delivery": {
+    "status": "самовывоз",
+    "zone": null,
+    "distance_km": null,
+    "vehicle": null,
+    "trips": 0,
+    "cost": 0.0,
+    "free": false
+  },
+  "total": 47810.0,
+  "vat": 8621.48,
+  "notes": []
+}

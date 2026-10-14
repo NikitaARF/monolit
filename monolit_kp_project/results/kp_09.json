@@ -1,0 +1,85 @@
+{
+  "letter_id": "09",
+  "client": {
+    "name": "Алексей Мухин",
+    "company": null,
+    "email": "mukhin.a@example.ru",
+    "phone": "8 (900) 000-99-09"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Оверята",
+  "branch": "Краснокамск",
+  "items": [
+    {
+      "sku": "16005",
+      "name": "Доска обрезная хвойная 50×150×6000 мм, 1 сорт",
+      "unit": "шт",
+      "qty": 40,
+      "price": 880.0,
+      "amount": 35200.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16009",
+      "name": "Брус хвойный 150×150×6000 мм",
+      "unit": "шт",
+      "qty": 10,
+      "price": 2850.0,
+      "amount": 28500.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "16017",
+      "name": "Плита OSB-3 12 мм 1250×2500 мм",
+      "unit": "лист",
+      "qty": 15,
+      "price": 1090.0,
+      "amount": 16350.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "18001",
+      "name": "Гвозди строительные 70 мм",
+      "unit": "кг",
+      "qty": 3,
+      "price": 205.0,
+      "amount": 615.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "11001",
+      "name": "Цемент ПЦ 400 Д20 (М400), 50 кг",
+      "unit": "меш",
+      "qty": 10,
+      "price": 470.0,
+      "amount": 4700.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 85365.0,
+  "discount_percent": 0,
+  "discount_base": 85365.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 85365.0,
+  "weight_kg": 2423.0,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 2,
+    "distance_km": 14,
+    "vehicle": "Манипулятор",
+    "trips": 1,
+    "cost": 5400.0,
+    "free": false
+  },
+  "total": 90765.0,
+  "vat": 16367.46,
+  "notes": [
+    "Утеплитель исключён по последней поправке клиента. Использованы количество доски 40 шт. и доставка в Оверята, а не значения из исходного письма."
+  ]
+}

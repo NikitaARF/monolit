@@ -1,0 +1,45 @@
+{
+  "client": {
+    "name": "Татьяна",
+    "company": null,
+    "email": "tanya.ogorod@example.ru",
+    "phone": "8-900-000-88-08"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Кудымкар",
+  "items": [
+    {
+      "request": "Теплица 3×6 — 1 шт",
+      "sku": "20002",
+      "quantity": 1,
+      "unit": "шт"
+    },
+    {
+      "request": "Поликарбонат 4 мм — 4 листа",
+      "sku": "20004",
+      "quantity": 4,
+      "unit": "лист"
+    },
+    {
+      "request": "Термошайбы — 2 упаковки",
+      "sku": "20007",
+      "quantity": 2,
+      "unit": "уп"
+    },
+    {
+      "request": "Соединительный профиль — 2 шт",
+      "sku": "20006",
+      "quantity": 2,
+      "unit": "шт"
+    },
+    {
+      "request": "Плёнка 150 мкм — 1 рулон",
+      "sku": "20008",
+      "quantity": 1,
+      "unit": "рул"
+    }
+  ],
+  "clarify": [],
+  "notes": [],
+  "letter_id": "08"
+}

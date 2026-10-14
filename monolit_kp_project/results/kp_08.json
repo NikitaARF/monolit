@@ -1,0 +1,86 @@
+{
+  "letter_id": "08",
+  "client": {
+    "name": "Татьяна",
+    "company": null,
+    "email": "tanya.ogorod@example.ru",
+    "phone": "8-900-000-88-08"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Кудымкар",
+  "branch": null,
+  "items": [
+    {
+      "sku": "20002",
+      "name": "Теплица арочная 3×6 м, оцинкованный профиль 20×20, без поликарбоната",
+      "unit": "шт",
+      "qty": 1,
+      "price": 26900.0,
+      "amount": 26900.0,
+      "promo": false,
+      "on_order_days": 7
+    },
+    {
+      "sku": "20004",
+      "name": "Поликарбонат сотовый 4 мм прозрачный, лист 2,1×6 м",
+      "unit": "лист",
+      "qty": 4,
+      "price": 3390.0,
+      "amount": 13560.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "20007",
+      "name": "Термошайба для поликарбоната, уп. 50 шт",
+      "unit": "уп",
+      "qty": 2,
+      "price": 290.0,
+      "amount": 580.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "20006",
+      "name": "Профиль соединительный для поликарбоната 4–6 мм, 6 м",
+      "unit": "шт",
+      "qty": 2,
+      "price": 640.0,
+      "amount": 1280.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "20008",
+      "name": "Плёнка полиэтиленовая 150 мкм, рукав 1,5 м (3 м в развороте) × 100 м",
+      "unit": "рул",
+      "qty": 1,
+      "price": 3490.0,
+      "amount": 3490.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 45810.0,
+  "discount_percent": 0,
+  "discount_base": 45810.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 45810.0,
+  "weight_kg": 190.8,
+  "delivery": {
+    "status": "уточнить",
+    "zone": null,
+    "distance_km": null,
+    "vehicle": null,
+    "trips": 0,
+    "cost": 0.0,
+    "free": false
+  },
+  "total": 45810.0,
+  "vat": 8260.82,
+  "notes": [
+    "Теплица арочная 3×6 м, оцинкованный профиль 20×20, без поликарбоната — под заказ, срок поставки 7 дн.",
+    "стоимость доставки по согласованию"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "letter_id": "02",
+  "client": {
+    "name": "Сергей",
+    "company": null,
+    "email": "stroim.dom.sergey@example.ru",
+    "phone": "8-900-000-22-02"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Краснокамск",
+  "branch": "Краснокамск",
+  "items": [
+    {
+      "sku": "11002",
+      "name": "Цемент ПЦ 500 Д0 (М500), 50 кг",
+      "unit": "меш",
+      "qty": 40,
+      "price": 565.0,
+      "amount": 22600.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "13003",
+      "name": "Арматура А500С Ø12 мм, хлыст 11,7 м",
+      "unit": "шт",
+      "qty": 26,
+      "price": 745.0,
+      "amount": 19370.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "13014",
+      "name": "Проволока вязальная 1,2 мм, бухта 5 кг",
+      "unit": "бухта",
+      "qty": 2,
+      "price": 680.0,
+      "amount": 1360.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "13011",
+      "name": "Сетка кладочная 50×50×4 мм, карта 0,5×2 м",
+      "unit": "шт",
+      "qty": 30,
+      "price": 98.0,
+      "amount": 2940.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "19001",
+      "name": "Песок строительный фасованный, мешок 40 кг",
+      "unit": "меш",
+      "qty": 20,
+      "price": 165.0,
+      "amount": 3300.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "19002",
+      "name": "Щебень гранитный фр. 5–20, мешок 40 кг",
+      "unit": "меш",
+      "qty": 20,
+      "price": 215.0,
+      "amount": 4300.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 53870.0,
+  "discount_percent": 0,
+  "discount_base": 53870.0,
+  "discount_amount": 0.0,
+  "goods_after_discount": 53870.0,
+  "weight_kg": 3916.14,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 1,
+    "distance_km": 5,
+    "vehicle": "Манипулятор",
+    "trips": 1,
+    "cost": 3800.0,
+    "free": false
+  },
+  "total": 57670.0,
+  "vat": 10399.51,
+  "notes": []
+}

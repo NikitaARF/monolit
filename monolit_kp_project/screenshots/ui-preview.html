@@ -1,0 +1,52 @@
+
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>КП по письму клиента — Монолит Р</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f2f5f8;color:#1d2939;font:15px Arial,sans-serif}
+header{background:#173e63;color:white;padding:22px max(20px,calc((100% - 1100px)/2))}header h1{margin:0 0 6px;font-size:25px}header p{margin:0;color:#d6e4f0}
+main{max-width:1100px;margin:24px auto;padding:0 18px}.panel{background:white;border:1px solid #dce3eb;border-radius:12px;padding:20px;margin-bottom:18px;box-shadow:0 2px 8px #172b4d0a}
+textarea{width:100%;min-height:230px;border:1px solid #b8c4d2;border-radius:8px;padding:12px;font:14px/1.5 Consolas,monospace}
+button,.download{display:inline-block;background:#1d5d91;color:white;border:0;border-radius:7px;padding:11px 16px;font-weight:bold;cursor:pointer;text-decoration:none;margin-top:10px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}th,td{border:1px solid #d9e0e8;padding:8px;text-align:left}th{background:#edf3f8}td.num{text-align:right;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}.stat{padding:13px;background:#f4f7fa;border-radius:8px}.stat small{display:block;color:#667085;margin-bottom:6px}.stat b{font-size:20px}.warn{background:#fff5e8;border:1px solid #ffd9a8;padding:12px;border-radius:8px}.muted{color:#667085;font-size:13px}.error{color:#9d2222}.pill{background:#e6f5eb;color:#17643b;border-radius:20px;padding:4px 9px;font-size:12px}
+</style><style>@page { size: 1200px 1800px; margin: 0; } html, body { width: 1200px; min-height: 1500px; } input[type="hidden"] { display: none !important; } .panel { break-inside: avoid; }</style></head><body><header><h1>«Монолит Р» — КП по письму клиента</h1><p>ИИ разбирает письмо, расчёты выполняются детерминированным кодом по прайсу и регламенту.</p></header><main>
+<section class="panel"><h2>1. Вставьте письмо клиента</h2>
+<form method="post"><textarea name="letter" placeholder="Вставьте полный текст письма, включая запрос и контактные данные..." required>От: Ольга Ракитина <rakitina.ov@example.ru>
+Кому: zakaz@monolit-r.example
+Дата: 06.10.2026 12:37
+Тема: Материалы на баню
+
+Добрый день!
+
+Строим баню в Кондратово, нужно привезти:
+— Ондулин коричневый — 30 листов
+— Коньки для ондулина — 6 шт
+— Металлочерепица на навес — 12 листов (лист 1,18×3,6)
+— Пароизоляция Изоспан В — 2 рулона
+— Брусок 50×50 длиной 3 м — 30 шт
+— Утеплитель Роквул Скандик 50 мм — 6 упаковок
+— Антисептик Сенеж Ультра — 2 канистры
+
+Цвет металлочерепицы уточню у мужа, пока посчитайте как есть.
+
+Спасибо!
+Ольга, +7 (900) 000-44-04
+</textarea><br><button type="submit">Сформировать черновик КП</button></form>
+<p class="muted">Для разбора письма нужен API-ключ в .env. Если ключ не настроен, можно использовать режим расчёта из готового JSON-разбора командой batch.py --no-llm.</p></section>
+
+<section class="panel"><h2>2. Результат расчёта <span class="pill">Черновик</span></h2>
+<div class="grid">
+<div class="stat"><small>Сумма товаров</small><b>18 570,00 ₽</b></div>
+<div class="stat"><small>Скидка 0%</small><b>0,00 ₽</b></div>
+<div class="stat"><small>Доставка</small><b>2 100,00 ₽</b></div>
+<div class="stat"><small>Итого к оплате</small><b>20 670,00 ₽</b></div></div>
+<p><b>Клиент:</b> Ольга Ракитина · +7 (900) 000-44-04</p>
+<p><b>Получение:</b> доставка, Кондратово · <b>Филиал:</b> Пермь</p>
+<h3>Позиции</h3><table><tr><th>Артикул</th><th>Наименование</th><th>Кол-во</th><th>Цена</th><th>Сумма</th></tr>
+<tr><td>14016</td><td>Пароизоляция Изоспан B, рулон 70 м²</td><td>2 рул</td><td class="num">1 450,00</td><td class="num">2 900,00</td></tr><tr><td>16010</td><td>Брусок строганый 50×50×3000 мм</td><td>30 шт</td><td class="num">165,00</td><td class="num">4 950,00</td></tr><tr><td>15003</td><td>Утеплитель Rockwool Лайт Баттс Скандик 50 мм, уп. 8,64 м² (0,432 м³)</td><td>6 уп</td><td class="num">1 490,00</td><td class="num">8 940,00</td></tr><tr><td>21006</td><td>Антисептик Сенеж Ультра, канистра 5 кг</td><td>2 шт</td><td class="num">890,00</td><td class="num">1 780,00</td></tr></table>
+<div class="warn"><h3>Требует уточнения — в сумму не включено</h3><p><b>Ондулин коричневый — 30 листов</b> — в прайсе нет ондулина коричневого</p><p><b>Коньки для ондулина — 6 шт</b> — в прайсе нет соответствующего конька для ондулина</p><p><b>Металлочерепица на навес — 12 листов (лист 1,18×3,6)</b> — не указан цвет; в прайсе есть металлочерепица нескольких цветов</p></div>
+<h3>Примечания менеджеру</h3><ul><li>Цвет металлочерепицы клиент уточнит отдельно.</li></ul>
+<p><b>Вес заказа:</b> 212,00 кг · <b>НДС 22% в итоге:</b> 3 727,38 ₽</p>
+<form method="post" action="/download"><input type="hidden" name="payload" value="{&#34;letter_id&#34;: &#34;04&#34;, &#34;client&#34;: {&#34;name&#34;: &#34;Ольга Ракитина&#34;, &#34;company&#34;: null, &#34;email&#34;: &#34;rakitina.ov@example.ru&#34;, &#34;phone&#34;: &#34;+7 (900) 000-44-04&#34;}, &#34;delivery_method&#34;: &#34;доставка&#34;, &#34;settlement&#34;: &#34;Кондратово&#34;, &#34;branch&#34;: &#34;Пермь&#34;, &#34;items&#34;: [{&#34;sku&#34;: &#34;14016&#34;, &#34;name&#34;: &#34;Пароизоляция Изоспан B, рулон 70 м²&#34;, &#34;unit&#34;: &#34;рул&#34;, &#34;qty&#34;: 2, &#34;price&#34;: 1450.0, &#34;amount&#34;: 2900.0, &#34;promo&#34;: false, &#34;on_order_days&#34;: null}, {&#34;sku&#34;: &#34;16010&#34;, &#34;name&#34;: &#34;Брусок строганый 50×50×3000 мм&#34;, &#34;unit&#34;: &#34;шт&#34;, &#34;qty&#34;: 30, &#34;price&#34;: 165.0, &#34;amount&#34;: 4950.0, &#34;promo&#34;: false, &#34;on_order_days&#34;: null}, {&#34;sku&#34;: &#34;15003&#34;, &#34;name&#34;: &#34;Утеплитель Rockwool Лайт Баттс Скандик 50 мм, уп. 8,64 м² (0,432 м³)&#34;, &#34;unit&#34;: &#34;уп&#34;, &#34;qty&#34;: 6, &#34;price&#34;: 1490.0, &#34;amount&#34;: 8940.0, &#34;promo&#34;: false, &#34;on_order_days&#34;: null}, {&#34;sku&#34;: &#34;21006&#34;, &#34;name&#34;: &#34;Антисептик Сенеж Ультра, канистра 5 кг&#34;, &#34;unit&#34;: &#34;шт&#34;, &#34;qty&#34;: 2, &#34;price&#34;: 890.0, &#34;amount&#34;: 1780.0, &#34;promo&#34;: false, &#34;on_order_days&#34;: null}], &#34;clarify&#34;: [{&#34;request&#34;: &#34;Ондулин коричневый — 30 листов&#34;, &#34;reason&#34;: &#34;в прайсе нет ондулина коричневого&#34;}, {&#34;request&#34;: &#34;Коньки для ондулина — 6 шт&#34;, &#34;reason&#34;: &#34;в прайсе нет соответствующего конька для ондулина&#34;}, {&#34;request&#34;: &#34;Металлочерепица на навес — 12 листов (лист 1,18×3,6)&#34;, &#34;reason&#34;: &#34;не указан цвет; в прайсе есть металлочерепица нескольких цветов&#34;}], &#34;goods_total&#34;: 18570.0, &#34;discount_percent&#34;: 0, &#34;discount_base&#34;: 18570.0, &#34;discount_amount&#34;: 0.0, &#34;goods_after_discount&#34;: 18570.0, &#34;weight_kg&#34;: 212.0, &#34;delivery&#34;: {&#34;status&#34;: &#34;рассчитана&#34;, &#34;zone&#34;: 2, &#34;distance_km&#34;: 18, &#34;vehicle&#34;: &#34;Газель&#34;, &#34;trips&#34;: 1, &#34;cost&#34;: 2100.0, &#34;free&#34;: false}, &#34;total&#34;: 20670.0, &#34;vat&#34;: 3727.38, &#34;notes&#34;: [&#34;Цвет металлочерепицы клиент уточнит отдельно.&#34;]}"><button type="submit">Скачать КП в DOCX</button></form>
+</section>
+</main></body></html>

@@ -1,0 +1,105 @@
+{
+  "letter_id": "06",
+  "client": {
+    "name": "Ирина Ковалёва",
+    "company": "ООО «Северный квартал»",
+    "email": "snab@severkvartal.example.ru",
+    "phone": "+7 (900) 000-66-06"
+  },
+  "delivery_method": "доставка",
+  "settlement": "Култаево",
+  "branch": "Пермь",
+  "items": [
+    {
+      "sku": "12001",
+      "name": "Газобетон D500 600×300×200 мм",
+      "unit": "шт",
+      "qty": 720,
+      "price": 255.0,
+      "amount": 183600.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "11012",
+      "name": "Клей для газобетона Основит Селформ, 25 кг",
+      "unit": "меш",
+      "qty": 60,
+      "price": 395.0,
+      "amount": 23700.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "12007",
+      "name": "Кирпич облицовочный одинарный красный гладкий",
+      "unit": "шт",
+      "qty": 2240,
+      "price": 46.0,
+      "amount": 103040.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "13002",
+      "name": "Арматура А500С Ø10 мм, хлыст 11,7 м",
+      "unit": "шт",
+      "qty": 139,
+      "price": 520.0,
+      "amount": 72280.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "15006",
+      "name": "Пеноплэкс Комфорт 50 мм, уп. 4,86 м² (0,243 м³)",
+      "unit": "уп",
+      "qty": 40,
+      "price": 1390.0,
+      "amount": 55600.0,
+      "promo": true,
+      "on_order_days": null
+    },
+    {
+      "sku": "13012",
+      "name": "Сетка кладочная 100×100×4 мм, карта 1×2 м",
+      "unit": "шт",
+      "qty": 100,
+      "price": 165.0,
+      "amount": 16500.0,
+      "promo": false,
+      "on_order_days": null
+    },
+    {
+      "sku": "11002",
+      "name": "Цемент ПЦ 500 Д0 (М500), 50 кг",
+      "unit": "меш",
+      "qty": 30,
+      "price": 565.0,
+      "amount": 16950.0,
+      "promo": false,
+      "on_order_days": null
+    }
+  ],
+  "clarify": [],
+  "goods_total": 471670.0,
+  "discount_percent": 5,
+  "discount_base": 416070.0,
+  "discount_amount": 20803.5,
+  "goods_after_discount": 450866.5,
+  "weight_kg": 25615.58,
+  "delivery": {
+    "status": "рассчитана",
+    "zone": 2,
+    "distance_km": 28,
+    "vehicle": "Манипулятор",
+    "trips": 3,
+    "cost": 16200.0,
+    "free": false
+  },
+  "total": 467066.5,
+  "vat": 84225.11,
+  "notes": [
+    "Пожелание разгрузки манипулятором зафиксировано; транспорт для расчёта выбирается по регламенту на основании веса и наличия длинномеров."
+  ]
+}
